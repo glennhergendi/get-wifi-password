@@ -60,6 +60,7 @@ def print_windows_profiles(verbose):
     get_windows_saved_wifi_passwords(verbose)
 
 
+# untuk print profile wifi
 def print_profiles(verbose=1):
     if os.name == "nt":
         print_windows_profiles(verbose)
